@@ -1,0 +1,29 @@
+
+9
+	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
+E
+DjangoWeb/__init__.py,1\d\1d8c2045cf2134cd8cb4d8d27356e5f45e2f7fdf
+P
+ DjangoWeb/migrations/__init__.py,8\a\8ad103ba5eca3f2bfa80772cef7c58af590f5e2d
+E
+DjangoTest1/models.py,c\a\cafe6ccc0f9e28d6fab831a0403d8cef749e27c1
+T
+$DjangoWeb/migrations/0001_initial.py,c\4\c4c20e9eb209f23d3cbd5c262c702acf2ddd51ea
+B
+DjangoWeb/admin.py,e\c\ece31101cfb57f7be98b65c8e09893faf8a3ab2b
+G
+DjangoTest1/__init__.py,7\4\74ce4ac56fb363ecb20664a0b8660f248a572442
+B
+DjangoWeb/forms.py,9\5\95fd0e63ecb8bbe6532f72368e59d20389533735
+C
+DjangoWeb/testdb.py,4\7\472073dbf457e23a90d9789a3016de585956d9e6
+B
+DjangoWeb/tests.py,2\3\238fb417becf3d038550d1c2487b47196de96f6a
+A
+DjangoWeb/apps.py,6\e\6e732bc962fef77cd3f6ce0cfa60e3a4365245b9
+D
+templates/areas.html,3\7\37a5c55805b4edad84546ea8569722dad49525a3
+C
+DjangoWeb/models.py,9\b\9b1df7a8990a54f271a86a121d0b8cf70cd520e7
+E
+templates/detail.html,8\e\8e9b40b8e3c6811a4d00e2bd87325e1f71e71544

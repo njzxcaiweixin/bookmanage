@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示图书关联的人物信息</title>
+
+    <style>
+        li{
+            style:none;
+        }
+    </style>
+</head>
+<body>
+<h1>{{ book.bname }}</h1>
+人物信息如下：<br/>
+<ul>
+    {% for renwu in figure %}
+        <li>{{ renwu.fname }}--{{ renwu.zhiye }}</li>
+        {% empty %}
+        <li>没有人物信息</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

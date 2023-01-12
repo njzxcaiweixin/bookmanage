@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <h3>这是Djangod的第一个模板示例</h3>
+    {#    <p>{{parm|safe}}</p>#}
+    <p> {% if parm > 90 and parm <= 100 %}
+        优秀
+        {% elif parm > 60 and parm <= 90 %}
+        合格
+        {% else %}
+        太差了，一边玩去
+         {% endif %}
+    </p>
+</div>
+</body>
+</html>

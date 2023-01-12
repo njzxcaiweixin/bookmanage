@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自关联案例</title>
+</head>
+<body>
+<form action="/areas" method="post">
+    <label for="name">地区名: </label>
+    <input id="name" type="text" name="name" value="">
+    <input type="submit" value="提交">
+
+</form>
+<h1>当前地区</h1>
+  <ul>
+    {% if area is none %}
+        <h3>没有该地区信息</h3>
+    {% else %}
+       {{ area.name}}
+    {% endif %}
+  </ul>
+<h2>父级地区</h2>
+  {{ parent.name }}<br/>
+<h3>下级地区</h3>
+<ul>
+    {% for child in children %}
+        <li>{{ child.name }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
